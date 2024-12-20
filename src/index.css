@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  
+  font-family: 'Roboto', sans-serif;
+  background-color:  #F9FAFB;
+ 
+  }
+  @layer utilities {
+    .pause-marquee {
+      animation-play-state: paused;
+    }
+  }
+  
